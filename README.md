@@ -1,1 +1,2 @@
-- aula 1 - [variáveis](variaveis)
+- [Sequências](aula01/sequencias.md)
+

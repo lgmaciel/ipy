@@ -1,0 +1,6 @@
+- abrir vscode
+- abrir terminal no vscode
+- criar um diretório
+- criar arquivo no vscode pelo terminal (`code nome_arq.ext`)
+- escrever um programa hello em python
+- rodar o programa pelo terminal (`python programa.py`)
