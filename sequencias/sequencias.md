@@ -16,8 +16,9 @@ Jupyter notebook: [Sequencias](nb_algoritmos_sequenciais.ipynb)
 	- [imprimir um email usando fStrings](ex_variaveis_email.py)
 
 - exercícios
-	- [substituição de valor em expressões](ex_variaveis_substituicao.md)
-	- [interpretação de código](ex_variaveis_interpretacao_01.md)
+	- [programação - variáveis](ex_variaveis_substituicao.md)
+	- [interpretação - variáveis](ex_variaveis_interpretacao_01.md)
+	- [interpretação - variáveis e strings](ex_interpretacao_variaveis_02.md)
 	
 - desafio
 	- [imprimir lista de compras em 2 colunas](variaveis_problema1.md)

@@ -1,4 +1,4 @@
-### Exercício: Substituição de Valor em Expressões
+### Exercício: Usando variáveis
 
 **Enunciado:**
 Você tem três variáveis: `a`, `b` e `c`. As variáveis `a` e `b` são números inteiros, e a variável `c` é uma string. Você deve escrever um programa em Python que faça as seguintes operações e imprima os resultados:
