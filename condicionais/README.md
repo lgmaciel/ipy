@@ -1,19 +1,9 @@
 ## Condicionais
 
-```python
-...inicio do programa...
+- [introdução aos desvios condicionais](condicionais.md)
+- [operadores lógicos](operadores_logicos.md)
 
-# Desvio condicional
-if expressao_bool:
-    código a ser
-    executado caso True
-else:
-    código a ser
-    executado caso False
-
-# Retorno ao programa
-...continuação do programa
-```
+Exercícios
 
 - [interpretação 01](ex_condicionais_interpretacao_01.md)
 - [codificação 01](ex_condicionais_codificacao_01.md)
