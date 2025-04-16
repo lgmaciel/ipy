@@ -8,4 +8,5 @@
 Exercícios
 
 - [interpretação 01](ex_loops_interpretacao_01.md)
-- [codificacao 01](ex_loops_interpretacao_01.md)
+- [codificacao 01](ex_loops_codificação_01.md.md)
+- [exercícios resolvidos](ex_loops_resolvidos_01.md) - de exemplo
