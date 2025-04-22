@@ -104,19 +104,3 @@ print("A soma dos números é:", soma)
 ```
 
 ---
-
-## Exercício 10: Números Primos em um Intervalo
-Escreva um programa que imprima todos os números primos entre 1 e 50. Este exercício combina loops aninhados e lógica condicional.
-
-```python
-for num in range(2, 51):
-    primo = True
-    for i in range(2, int(num ** 0.5) + 1):
-        if num % i == 0:
-            primo = False
-            break
-    if primo:
-        print(num)
-```
-
----
