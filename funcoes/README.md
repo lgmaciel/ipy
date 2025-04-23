@@ -6,4 +6,5 @@ Funções
 Exercícios
 
 - [Dê nomes às funções](funcoes-exercicios-01.ipynb) - exercício 01
-- [Dê nomes às funções ](funcoes-exercicios-02.ipynb) - exercício 02
+- [Use o valor das funções](funcoes-exercicios-03.ipynb) - exercício 02
+- [Dê nomes às funções ](funcoes-exercicios-02.ipynb) - exercício 03
