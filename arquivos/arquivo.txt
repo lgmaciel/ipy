@@ -1,0 +1,20 @@
+UTF-8 (Unicode Transformation Format - 8-bit) e um formato de codificacao de texto amplamente utilizado para representar caracteres de texto em computadores. Ele e compativel com ASCII e pode codificar todos os caracteres do padrao Unicode.
+
+Caracteristicas principais do UTF-8:
+1. **Compatibilidade com ASCII**: Os primeiros 128 caracteres (0-127) sao identicos ao ASCII, garantindo compatibilidade com sistemas legados.
+2. **Codificacao variavel**: Cada caractere pode ser representado por 1 a 4 bytes, dependendo do valor Unicode do caractere.
+    - 1 byte: Para caracteres ASCII (U+0000 a U+007F).
+    - 2 bytes: Para caracteres de U+0080 a U+07FF.
+    - 3 bytes: Para caracteres de U+0800 a U+FFFF.
+    - 4 bytes: Para caracteres de U+10000 a U+10FFFF.
+3. **Eficiencia**: E eficiente para textos predominantemente em ingles ou outros idiomas baseados em ASCII, pois utiliza apenas 1 byte para esses caracteres.
+4. **Autossincronizacao**: E possivel identificar os limites de caracteres em uma sequencia de bytes, mesmo que a sequencia esteja corrompida ou incompleta.
+5. **Universalidade**: Suporta todos os caracteres e simbolos definidos no padrao Unicode, tornando-o ideal para aplicacoes multilingues.
+
+O UTF-8 e amplamente utilizado na web, em sistemas operacionais e em protocolos de comunicacao devido a sua flexibilidade e compatibilidade.
+
+A tabela ASCII (American Standard Code for Information Interchange) foi criada na decada de 1960 como um padrao para representar caracteres em computadores. Ela utiliza 7 bits para codificar 128 caracteres, incluindo letras, numeros, simbolos e comandos de controle. Esse padrao foi essencial para a comunicacao entre diferentes sistemas computacionais.
+
+Com o tempo, a limitacao de 128 caracteres tornou-se evidente, especialmente para idiomas que exigem mais simbolos. Isso levou ao desenvolvimento de extensoes, como o ASCII estendido, que utiliza 8 bits para representar ate 256 caracteres. No entanto, essas extensoes nao eram universais, causando problemas de compatibilidade.
+
+A chegada do Unicode e do UTF-8 resolveu essas limitacoes, mantendo a compatibilidade com o ASCII original. O UTF-8 usa 1 byte para os caracteres ASCII, garantindo eficiencia, enquanto permite a codificacao de milhoes de outros caracteres, tornando-se o padrao global para texto digital.
