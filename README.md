@@ -5,3 +5,4 @@ Introdução à programação com Python
 - [Condicionais](condicionais/README.md)
 - [Loops](loops/README.md)
 - [Funções](funcoes/README.md)
+- [Escopo e módulos](escopo/README.md)
