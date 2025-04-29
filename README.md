@@ -6,4 +6,5 @@ Introdução à programação com Python
 - [Loops](loops/README.md)
 - [Funções](funcoes/README.md)
 - [Escopo e módulos](escopo/README.md)
+- [Estruturas de dados](estruturas/README.md)
 - [Aplicações em linha de comando](aplicacoes/README.md)
