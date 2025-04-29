@@ -4,7 +4,8 @@ A **linha de comando** é uma interface textual que permite ao usuário interagi
 
 
 - [Shell](../CLI01-Linha_de_Comando_Windows.md)
-- [CLI windows](cli_windows.md)
+- [CLI Windows](cli_windows.md) - introdução, usos, árvore de diretórios
+- [CLI Windows](cli_windows_comandos.md) - comandos mais usados
 - [Arquivos Batch](batch.md)
 - [Argumentos em linha de comando](args_python.md) - Python
 - [Diretórios ](os_python.ipynb) - pacote `os` - Python
