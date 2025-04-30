@@ -9,3 +9,6 @@ A **linha de comando** é uma interface textual que permite ao usuário interagi
 - [Arquivos Batch](batch.md)
 - [Argumentos em linha de comando](args_python.md) - Python
 - [Diretórios ](os_python.ipynb) - pacote `os` - Python
+
+exercícios 
+- [CLI](ex_cli_windows.md) - arquivos e diretórios
