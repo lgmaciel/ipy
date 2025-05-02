@@ -22,7 +22,7 @@ for linha in range(linhas):
 
 Você vai escrever um programa que desenha na tela uma pirâmide como as do jogo Mario Bros.
 
-Seu programa deve receber a `quantidade de degraus` da pirâmide como parâtro pela linha de comando.
+Seu programa deve receber a `quantidade de degraus` da pirâmide como parâmetro pela linha de comando.
 
 Por exemplo:
 
