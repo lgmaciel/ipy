@@ -13,3 +13,4 @@ A **linha de comando** é uma interface textual que permite ao usuário interagi
 exercícios 
 - [CLI](ex_cli_windows.md) - arquivos e diretórios
 - [CLI - árvores de diretório](ex_cli_windows_02.md)
+- [Argumentos em linha de comando](ex_mario1.md) - python - Mario 
