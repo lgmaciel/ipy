@@ -9,7 +9,7 @@ Encontre o próximo número na sequência abaixo e explique seu raciocínio:
 ## Exercício 2: Palavras Codificadas
 Cada letra da palavra "FOCO" foi substituída por um número seguindo uma lógica. Descubra a lógica e decodifique a palavra "011905131914":
 ```
-F = 06, O = 15, C = 03, O = 15
+F = 06, O = 14, C = 03, O = 14
 ```
 
 ## Exercício 3: Labirinto de Instruções
