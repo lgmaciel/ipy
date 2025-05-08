@@ -6,6 +6,10 @@
 - [Tuplas](tuplas.ipynb) - criação e acesso
 - [Mapas](mapas_01.ipynb) - criação, manipulação e iteração
 
+projeto
+
+- [Máquina de vendas](maquina_de_vendas.ipynb)
+
 exercícios
 
 - [Listas](ex_listas_01.ipynb) - leitura de código
