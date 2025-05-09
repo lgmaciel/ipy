@@ -13,6 +13,7 @@ projeto
 exercícios
 
 - [Listas](ex_listas_01.ipynb) - leitura de código
+- [Loops e listas](ex_revisao_01.ipynb)
 - [Pilhas e filas](ex_filas_pilhas.ipynb) - escrita de código
 - [Tuplas](ex_tuplas_01.ipynb) - escrita de código
 - [Mapas](ex_mapas_01.ipynb) - escrita de código
