@@ -9,3 +9,5 @@ Introdução à programação com Python
 - [Escopo e módulos](escopo/README.md)
 - [Estruturas de dados](estruturas/README.md)
 - [Aplicações em linha de comando](aplicacoes/README.md)
+- [Aplicações com interface gráfica](gui/README.md)
+- [Acesso a banco de dados](sqlpy/README.md)
