@@ -121,6 +121,15 @@ def ctrl_listar():
     else:
         print("Registro não encontrado")
 
+def ctrl_consultar(email):    
+    # consultar model
+    ok, registros = consultar(minha_agenda, email)
+    if ok:
+        # repassar para a camada de View os dados obtidos da Model
+        imprimir_um((email, registros))
+    else:
+        print("Registro não encontrado")
+
 # Testes de uso do sistema
 
 def test_ctrl_cadastrar():
@@ -208,3 +217,11 @@ if comando == 'listar':
     ctrl_listar()
 elif comando == 'ajuda':
     ctrl_ajuda()
+elif comando == 'consultar':
+    try:
+        email = sys.argv[2] # receber parâmetro do
+                            # comando 'consultar'
+        ctrl_consultar(email)
+    except IndexError:      # Se parâmetro não informado...
+        ctrl_listar()       # ...ctrl lista todos os registros
+                            # por padrão (default)
