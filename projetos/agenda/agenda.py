@@ -1,3 +1,4 @@
+import sys
 
 """
 Model da Agenda
@@ -66,7 +67,7 @@ def consultar(agenda, email):
     return(status, dados)
 
 def listagem(agenda):
-    return agenda.items()
+    return (True, agenda.items())
 
 def agenda_init():
     cadastrar(minha_agenda, 'srx@email.com', 'Sr. X', 30, 'Rua x')
@@ -92,14 +93,35 @@ def imprimir_um(registro):
     Idade: {dados[1]}
     Favorito: {dados[3]}        
     ''')
+
+def imprimir_ajuda():
+    ajuda = '''
+SINTAXE
+agenda.py <comando>
+
+comandos:
+ajuda
+listar
+'''
+    print(ajuda)
+
 """
 Controlador da Agenda
 
 """
-agenda_init()
-print("Agenda 2025 (CLI) - v.0.1.0 - SENAC Tech - POA/RS")
+def ctrl_ajuda():
+    imprimir_ajuda()
 
-# inicia testes de uso do sistema
+def ctrl_listar():   
+    # consultar model
+    ok, registros = listagem(minha_agenda)
+    if ok:
+        # repassar para a camada de View os dados obtidos da Model
+        imprimir(registros)
+    else:
+        print("Registro não encontrado")
+
+# Testes de uso do sistema
 
 def test_ctrl_cadastrar():
     # CADASTRAR: recebe dados da view
@@ -166,8 +188,23 @@ def test_ctrl_favoritar():
     else:
         print(f"{email} inexistente")
 
-"""
-Rodando TESTES
-"""
 
-test_ctrl_favoritar()
+###############################
+# Início da execução programa #
+###############################
+
+agenda_init()
+print("Agenda 2025 (CLI) - v.0.1.0 - SENAC Tech - POA/RS")
+
+# CTRL (roteador de comandos)
+try:
+    comando = sys.argv[1] # CTRL recebe da VIEW o comando do USUÁRIO
+except IndexError:
+    ctrl_ajuda()    
+    sys.exit(0) # sai do programa, voltado ao Sist. Operacional informando
+                # código de status 0 (Programa terminou Ok, sem erros)
+
+if comando == 'listar':
+    ctrl_listar()
+elif comando == 'ajuda':
+    ctrl_ajuda()
